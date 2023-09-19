@@ -1,4 +1,4 @@
-const wordDictionary = new Array ;
+const wordDictionary = new Array;
 //Save word in dictionary!
 function saveWord() {
   wordDictionary.push(document.getElementById("insertword").value);
