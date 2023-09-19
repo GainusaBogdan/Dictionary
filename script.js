@@ -6,10 +6,9 @@ function saveWord() {
 
 //Find word in dictionary!
 function searchWord() {
-  const searchedWord = wordDictionary.includes(document.getElementById("searchword").value);
-  if (searchedWord) {
-    alert("The word it was found !");
+  if (wordDictionary.includes(document.getElementById("searchword").value)) {
+    alert("The word was found !");
   } else {
-    alert("The word it wasn't found !");
+    alert("The word wasn't found !");
   }
 }
